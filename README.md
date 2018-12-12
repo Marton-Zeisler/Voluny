@@ -13,8 +13,7 @@ There are two ways to test Voluny:
  - Another way to install Voluny is by inviting me to an Apple developer account and allowing me to upload the application to Testflight. TestFlight is Apple's online service for testing mobile applications but it is only possible with paid Apple developer accounts. An Apple developer account costs 99 dollars per year.
  
 ## Promotional Video
-We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:
-[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
 
 
 ## Description
@@ -71,16 +70,16 @@ With user-friendly and elegant UI, this quick and easy to use app should be a go
 
 ## Screenshots
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_1.jpg" width="300" height="600"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_2.jpg" width="300" height="600"/></p>
+<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_1.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_2.jpg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="300" height="600"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="300" height="600"/></p>
+<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_5.jpg" width="300" height="600"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_6.jpg" width="300" height="600"/></p>
+<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_5.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_6.jpg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_7.jpg" width="300" height="600"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_8.jpg" width="300" height="600"/></p>
+<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_7.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_8.jpg" width="231" height="500"/></p>
 
 ## Disclaimer
 Voluny is a product designed and developed by Marton Zeisler and Uyen Vicky Vo.
