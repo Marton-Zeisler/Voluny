@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oon-cr-CLj" customClass="SlideView" customModule="Voluntime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tah-yg-2pN">
+                    <rect key="frame" x="106.5" y="30" width="107" height="27"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" translatesAutoresizingMaskIntoConstraints="NO" id="sTp-4n-kgq">
+                    <rect key="frame" x="68.5" y="77" width="183" height="170.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="sTp-4n-kgq" secondAttribute="height" multiplier="251:228" id="fVA-bZ-EJs"/>
+                        <constraint firstAttribute="width" secondItem="sTp-4n-kgq" secondAttribute="height" multiplier="85:79" id="ooR-s1-PKZ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="fVA-bZ-EJs"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZ8-Hp-f5Z">
+                    <rect key="frame" x="30" y="277.5" width="260" height="80.5"/>
+                    <string key="text">Looking to volunteer 
+and help others in your area?</string>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We make volunteering quick and simple. Just select your location and browse our categories." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeD-ma-yad">
+                    <rect key="frame" x="30" y="378" width="260" height="63"/>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sTp-4n-kgq" firstAttribute="top" secondItem="tah-yg-2pN" secondAttribute="bottom" constant="20" id="0vh-hW-bph"/>
+                <constraint firstAttribute="trailing" secondItem="PZ8-Hp-f5Z" secondAttribute="trailing" constant="30" id="7Kb-0G-RNq"/>
+                <constraint firstItem="NeD-ma-yad" firstAttribute="top" secondItem="PZ8-Hp-f5Z" secondAttribute="bottom" constant="20" id="9aS-RG-bE6"/>
+                <constraint firstItem="sTp-4n-kgq" firstAttribute="height" secondItem="oon-cr-CLj" secondAttribute="height" multiplier="0.3" id="F3X-Zw-emd"/>
+                <constraint firstItem="PZ8-Hp-f5Z" firstAttribute="leading" secondItem="oon-cr-CLj" secondAttribute="leading" constant="30" id="Q1q-kB-cBZ"/>
+                <constraint firstItem="tah-yg-2pN" firstAttribute="centerX" secondItem="oon-cr-CLj" secondAttribute="centerX" id="WiZ-Ao-iWa"/>
+                <constraint firstItem="tah-yg-2pN" firstAttribute="top" secondItem="PNa-kK-zjj" secondAttribute="top" constant="10" id="a4S-5D-XdW"/>
+                <constraint firstItem="PZ8-Hp-f5Z" firstAttribute="top" secondItem="sTp-4n-kgq" secondAttribute="bottom" constant="30" id="kCV-mj-Jlp"/>
+                <constraint firstItem="sTp-4n-kgq" firstAttribute="centerX" secondItem="oon-cr-CLj" secondAttribute="centerX" id="nob-EE-VUc"/>
+                <constraint firstItem="NeD-ma-yad" firstAttribute="leading" secondItem="PNa-kK-zjj" secondAttribute="leading" constant="30" id="ptJ-sF-Ilx"/>
+                <constraint firstItem="PNa-kK-zjj" firstAttribute="trailing" secondItem="NeD-ma-yad" secondAttribute="trailing" constant="30" id="vmy-Yz-rQx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="PNa-kK-zjj"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="NeD-ma-yad" id="rHE-dt-dfe"/>
+                <outlet property="headerLabel" destination="tah-yg-2pN" id="7nv-T1-bb5"/>
+                <outlet property="otherAspectConstraints" destination="ooR-s1-PKZ" id="vzN-37-zVo"/>
+                <outlet property="thirdAspectConstraint" destination="fVA-bZ-EJs" id="MQd-q6-1eY"/>
+                <outlet property="underImageLabel" destination="PZ8-Hp-f5Z" id="hmk-oP-AEO"/>
+                <outlet property="welcomeImage" destination="sTp-4n-kgq" id="TAQ-ut-w8S"/>
+            </connections>
+            <point key="canvasLocation" x="-84" y="71"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="welcome1" width="255" height="237"/>
+    </resources>
+</document>

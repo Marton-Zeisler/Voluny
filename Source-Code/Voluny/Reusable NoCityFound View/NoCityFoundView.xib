@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoCityFoundView" customModule="Voluntime" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="ffM-1V-Wn1" id="Eez-7q-Inf"/>
+                <outlet property="tableView" destination="Vim-wi-Ixu" id="9XK-6K-KSK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ffM-1V-Wn1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j6U-rs-X8Y">
+                    <rect key="frame" x="20" y="40" width="335" height="163"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckY-zB-89N">
+                            <rect key="frame" x="59.5" y="0.0" width="216.5" height="37"/>
+                            <string key="text">NO EXPERIENCE AVAILABLE
+IN THIS LOCATION YET</string>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                            <color key="textColor" red="0.83137254901960778" green="0.27450980392156865" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrO-pT-6oI">
+                            <rect key="frame" x="15.5" y="57" width="304.5" height="51.5"/>
+                            <string key="text">Sorry for the inconvenience.
+ Please check back later. Due to recent launching, there’s a limit of city we support. </string>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5WH-j1-ndc">
+                            <rect key="frame" x="53.5" y="128.5" width="228.5" height="34.5"/>
+                            <string key="text">Here is a list of cities we support 
+as of today:</string>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" style="plain" rowHeight="40" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vim-wi-Ixu">
+                    <rect key="frame" x="30" y="233" width="315" height="384"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="border">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.29999999999999999"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.98039215686274506" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="j6U-rs-X8Y" firstAttribute="centerX" secondItem="ffM-1V-Wn1" secondAttribute="centerX" id="6LW-hJ-IcE"/>
+                <constraint firstItem="Vim-wi-Ixu" firstAttribute="top" secondItem="j6U-rs-X8Y" secondAttribute="bottom" constant="30" id="HXE-Xr-oBS"/>
+                <constraint firstItem="Vim-wi-Ixu" firstAttribute="centerX" secondItem="ffM-1V-Wn1" secondAttribute="centerX" id="PNq-8b-s5X"/>
+                <constraint firstItem="Vim-wi-Ixu" firstAttribute="leading" secondItem="kdL-pA-eU3" secondAttribute="leading" constant="30" id="Thr-vA-x95"/>
+                <constraint firstItem="kdL-pA-eU3" firstAttribute="trailing" secondItem="Vim-wi-Ixu" secondAttribute="trailing" constant="30" id="Uxb-38-iGn"/>
+                <constraint firstItem="j6U-rs-X8Y" firstAttribute="leading" secondItem="ffM-1V-Wn1" secondAttribute="leading" constant="20" id="V4Q-XA-yPf"/>
+                <constraint firstAttribute="trailing" secondItem="j6U-rs-X8Y" secondAttribute="trailing" constant="20" id="bU3-om-nyv"/>
+                <constraint firstItem="j6U-rs-X8Y" firstAttribute="top" secondItem="kdL-pA-eU3" secondAttribute="top" constant="20" id="gB6-1w-xfN"/>
+                <constraint firstItem="kdL-pA-eU3" firstAttribute="bottom" secondItem="Vim-wi-Ixu" secondAttribute="bottom" constant="50" id="sK5-I2-mwT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="kdL-pA-eU3"/>
+            <point key="canvasLocation" x="-34.399999999999999" y="-94.002998500749626"/>
+        </view>
+    </objects>
+</document>

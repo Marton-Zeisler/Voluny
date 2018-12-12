@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/marton/Dropbox/Teamly Apps/Voluntime/Voluny 2018/Source Code/voluny/Voluntime/Reusable NoCityFound View/NoCityFoundCell.xib">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/marton/Dropbox/Teamly Apps/Voluntime/Renamed Voluny/Voluny 2018/Source Code/voluny/Voluny.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
