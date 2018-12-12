@@ -13,11 +13,12 @@ There are two ways to test Voluny:
  - Another way to install Voluny is by inviting me to an Apple developer account and allowing me to upload the application to Testflight. TestFlight is Apple's online service for testing mobile applications but it is only possible with paid Apple developer accounts. An Apple developer account costs 99 dollars per year.
  
 ## Promotional Video
-We created a promotional video and uploaded it to Youtube. Please click on the following link to watch our video:
-[https://youtu.be/Zy44ONV4ASs](https://youtu.be/Zy44ONV4ASs)
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:
+[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
+
 
 ## Description
-<p align="center"> 
+<p align="center">
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_1.jpg" with="400" height="400" /></p>
 
 “Alone, we can do so little; together, we can do so much” – Helen Keller.
