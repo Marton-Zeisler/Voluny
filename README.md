@@ -16,7 +16,6 @@ There are two ways to test Voluny:
 We created a promotional video and uploaded it to Youtube. Please click on the following link to watch our video:
 [https://youtu.be/Zy44ONV4ASs](https://youtu.be/Zy44ONV4ASs)
 
-
 ## Description
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_1.jpg" with="400" height="400" /></p>
@@ -65,6 +64,8 @@ Our intention is to make things quick and simple. It is important that making de
 
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_10.jpg" with="400" height="500" /></p>
+
+With user-friendly and elegant UI, this quick and easy to use app should be a go-to Volunteer app for everyone. Volunteering made simple, that’s our goal. Let’s volunteer together!
 
 
 ## Screenshots
