@@ -12,6 +12,16 @@ There are two ways to test Voluny:
 
  - Another way to install Voluny is by inviting me to an Apple developer account and allowing me to upload the application to Testflight. TestFlight is Apple's online service for testing mobile applications but it is only possible with paid Apple developer accounts. An Apple developer account costs 99 dollars per year.
  
+## User accounts for testing
+The following volunteer and recruiter accounts have been created for testing purposes. Please use them to test Voluny.
+ - Password for all accounts: 123456
+
+ - Volunteer accounts: user1@user1.com, user2@user2.com, user3@user.com, user4@user4.com, user5@user5.com, user6@user6.com, user7@user7.com, user8@user8.com, user9@user9.com user10@user10.com
+ 
+ - Recruiter accounts for New Delhi: ind1@ind1.com, ind2@ind2.com, ind3@ind3.com
+ - Recruiter accounts for Budapest: bp1@bp1.com, bp2@bp2.com, bp3@bp3.com, bp4@bp4.com, bp6@bp6.com
+ - Recruiter accounts for San Francisco: sf1@sf1.com, sf2@sf2.com, sf4@sf4.com, sf5@sf5.com
+ 
 ## Promotional Video
 We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
 
